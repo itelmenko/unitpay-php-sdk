@@ -1,9 +1,9 @@
 {
-  "name":"unitpay/php-sdk",
+  "name":"itelmenko/unitpay-php-sdk",
   "type": "library",
   "description": "PHP SDK for UnitPay",
   "keywords": ["unitpay","pay"],
-  "homepage": "https://github.com/unitpay/php-sdk",
+  "homepage": "https://github.com/itelmenko/unitpay-php-sdk",
   "license": "MIT",
   "authors": [
     {
