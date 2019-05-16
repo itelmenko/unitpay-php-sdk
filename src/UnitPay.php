@@ -171,7 +171,7 @@ class UnitPay
     }
 
     /**
-     * Set callback URL
+     * Set back URL
      *
      * @param string $backUrl
      * @return UnitPay
@@ -179,6 +179,18 @@ class UnitPay
     public function setBackUrl($backUrl)
     {
         $this->params['backUrl'] = $backUrl;
+        return $this;
+    }
+
+    /**
+     * Set result URL
+     *
+     * @param string $url
+     * @return UnitPay
+     */
+    public function setResultUrl($url)
+    {
+        $this->params['resultUrl'] = $url;
         return $this;
     }
 
